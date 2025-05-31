@@ -1,0 +1,27 @@
+{
+  "pages": [
+    "pages/feed/feed",
+    "pages/history/history"
+  ],
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/feed/feed",
+        "text": "投喂",
+        "iconPath": "static/feed.png",
+        "selectedIconPath": "static/feed_selected.png"
+      },
+      {
+        "pagePath": "pages/history/history",
+        "text": "历史记录",
+        "iconPath": "static/history.png",
+        "selectedIconPath": "static/history.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

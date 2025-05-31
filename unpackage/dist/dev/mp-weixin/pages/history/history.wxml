@@ -1,0 +1,1 @@
+<view class="history-list"><button bindtap="{{a}}">刷新</button><view wx:for="{{b}}" wx:for-item="item" wx:key="c" class="history-item"><text>时间: {{item.a}}</text><text>投喂量: {{item.b}} 克</text></view></view>
